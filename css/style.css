@@ -9,8 +9,12 @@
   }
   
   nav {
+    display: flex;
     background-color: white;
-    padding: 8px 16px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+  
   }
   
   p {
@@ -30,13 +34,11 @@
   }
   
   h1 {
-    margin-top: 0;
     font-size: 32px;
   }
   
   h2 {
     font-size: 16px;
-    margin-bottom: 0;
   }
   
   input {
@@ -72,10 +74,7 @@
   .card-footer {
     font-size: 14px;
   }
-  
-  .card-footer * {
-    margin-top: 8px;
-  }
+
   
   #subnav {
     padding: 32px 72px 0;
@@ -95,4 +94,69 @@
     border-radius: 50px;
     padding: 6px 15px;
   }
+
+  #destinations {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+    
+  }
+
+  #actions {
+    display: flex;
+    flex-direction: row; 
+    justify-items: flex-start;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   
+  #hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    
+  }
+
+  #headers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #trending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #subnav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content : space-between;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
